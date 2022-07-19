@@ -4,8 +4,7 @@ const TitleSection : React.FC<TitleSectionProps> = ({children, bgColor, classNam
     return (
         <div style={{
             backgroundColor: bgColor,
-            height: "80vh"
-        }} className={className}>
+        }} className={className + "h-70"}>
             {children}
         </div>
     )
